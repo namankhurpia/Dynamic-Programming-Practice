@@ -114,7 +114,9 @@ public class subsetSumProblem {
                     ar[i][j] = ar[i-1][j];
                 }
             }
+
         }
+
 
         for(int i=0;i<ar.length;i++) {
             for (int j = 0; j < ar[i].length; j++) {
@@ -125,4 +127,7 @@ public class subsetSumProblem {
         return ar[arr.length][sum];
 
     }
+
+
+
 }
